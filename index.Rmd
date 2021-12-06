@@ -1,0 +1,108 @@
+---
+title: "Introduction to the Computational Social Science Lab Austria"
+author: "David Garcia <br> *Graz University of Technology and CSH Vienna*"
+date: "2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+layout: true
+<div class="my-footer"><span>David Garcia - Computational Social Science Lab Austria</span></div> 
+
+---
+background-image: url(figures/AboutMeV3.svg)
+background-size: 98%
+---
+background-image: url(figures/VennV2-1.svg)
+background-size: 97%
+---
+background-image: url(figures/VennV2.svg)
+background-size: 97%
+---
+
+## Research lines
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/Topics2.svg")
+```
+
+---
+background-image: url(figures/CollectiveEmotionsParis.svg)
+background-size: 98%
+---
+background-image: url(figures/CollectiveEmotionsABM.svg)
+background-size: 98%
+---
+background-image: url(figures/MacroEmotions.svg)
+background-size: 98%
+---
+background-image: url(figures/Leia2.svg)
+background-size: 98%
+---
+background-image: url(figures/EATLancet.svg)
+background-size: 98%
+---
+
+## Modelling the emergence of hyperpolarization
+
+.pull-left[
+```{r, echo=FALSE, out.width=450}
+knitr::include_graphics("figures/WBT.png")
+```
+
+]
+
+.pull-right[
+<iframe width="700" height="440" src="https://www.youtube.com/embed/y4rvLMgqwXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+
+A Weighted Balance Model of Opinion Hyperpolarization. Simon Schweighofer, Frank Schweitzer & David Garcia, JASS (2020)
+---
+background-image: url(figures/FGD.svg)
+background-size: 98%
+---
+background-image: url(figures/ShadowProfiles.svg)
+background-size: 98%
+---
+
+# Summary
+
+- Genuine interdisciplinarity in Computational Social Science
+
+- Computational affective science: application to collective emotions
+
+- Polarization dynamics: modelling hyperpolarization
+
+- Social media platform issues: Gender inequality and complex privacy
+
+- Approaching information disorder in collaboration with S. Lewandowsky: PRODEMINFO, Honesty, and Jigsaw
+
+.center[**More at: [www.dgarcia.eu](https://dgarcia.eu) and on Twitter [@dgarcia_eu](https://twitter.com/dgarcia_eu)**  
+<big><big><big>**Thanks for listening!**
+]
