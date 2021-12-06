@@ -1,7 +1,7 @@
 ---
 title: "Introduction to the Computational Social Science Lab Austria"
 author: "David Garcia <br> *Graz University of Technology and CSH Vienna*"
-date: "2021"
+date: "Slides at:  garcia.eu/CSSIntro2022"
 output:
   xaringan::moon_reader:
     lib_dir: libs 
